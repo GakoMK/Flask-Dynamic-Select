@@ -1,6 +1,13 @@
 # Python Flask Dynamic Select Box using Flask-WTF, javascript and SQLAlchemy
 Based on: https://tutorial101.blogspot.com/2020/04/python-flask-dynamic-select-box-using.html
 
+### Start:
+```
+flask db init
+flask db migrate
+flask db upgrade / downgrade
+```
+
 ### DB:
 ```
 INSERT INTO countries (id, name) VALUES (1, 'Poland');
@@ -24,11 +31,7 @@ INSERT INTO city (id, state, name, stateid) VALUES (5, 'NULL', 'City 2 for id2',
 INSERT INTO city (id, state, name, stateid) VALUES (6, NULL, 'City 3 for id2', 2);
 ```
 
-### Start:
+### Run:
 ```
-flask db init
-flask db migrate
-flask db upgrade / downgrade
-
 python main.py
 ```
