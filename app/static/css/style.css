@@ -1,0 +1,74 @@
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+body{
+  background-color: #fff;
+}
+
+/* remove rounding from cards, buttons and inputs */
+.card, .btn, .form-control { border-radius: 0; }
+
+/* text */
+.text-primary {
+  color: #1D2954!important;
+}
+
+.text-secondary{
+  color: #8C8A9E!important;
+}
+/* #007bff niebieski*/
+.text-success{
+  color: #49b55a!important;
+}
+.text-danger{
+  color: #EC5C40!important;
+}
+.text-warning{
+  color: #E2AB5D!important;
+}
+.text-info{
+  color: #8FD0D7!important;
+}
+
+/* alert */
+.close {
+  text-shadow: none;
+}
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #F5F6F8;
+  border-radius: .25rem;
+}
+.alert-warning {
+  color: #000;
+  background-color: #E2AB5D;
+  border-color: #E2AB5D;
+}
+
+a {
+  color: #1D2954;
+}
+
+/* .btn-primary{
+  color: #1D2954;
+  background-color: #F5F6F8;
+  border-color: #1D2954;
+} */
+/* .btn-outline-primary, 
+.badge-primary */
+
+
+
+/* .btn-primary_white {
+  color: #fff;
+  background-color: #fff;
+  border-color: #e5e5e5;
+} */
